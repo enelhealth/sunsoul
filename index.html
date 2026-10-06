@@ -15,6 +15,7 @@
 
 
 
+
 <meta name="description" content="Sun and Soul 2027, San Diego Vitality Con. Frontier medicine, daily longevity, mind and nervous system, and community. La Jolla, San Diego. Presented by Ēnel Health.">
 <meta property="og:title" content="Sun and Soul 2027 · San Diego Vitality Con">
 <meta property="og:image" content="/img/aerial.jpg">
@@ -26,6 +27,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Syne:wght@700;800&family=Pacifico&family=Space+Grotesk:wght@500;700&display=swap">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Syne:wght@700;800&family=Pacifico&family=Space+Grotesk:wght@500;700&display=swap">
@@ -511,6 +515,22 @@ html.lenis{scroll-behavior:auto}
 .sunfx::before{left:calc(100% + .42em);top:.12em;width:1.25em;height:1.25em;animation:coronaLife 2.5s 1.6s ease-in-out forwards}
 .sunfx::after{left:calc(100% + .42em);top:.12em;width:.8em;height:.8em;filter:blur(10px);animation:haloLife 2.5s 1.5s ease-in-out forwards}
 @media (max-width:640px){.sunfx::before,.sunfx::after{display:none}}
+
+/* ===== v9: footer in hero palette — pink sand + emerald glass ===== */
+footer{position:relative;isolation:isolate;color:#1D4A46;
+  background:radial-gradient(55% 70% at 88% 0%,rgba(255,238,226,.75),rgba(255,238,226,0) 70%),radial-gradient(60% 70% at 0% 100%,rgba(226,150,110,.45),rgba(226,150,110,0) 70%),linear-gradient(180deg,#F7D0B8 0%,#F2BE9F 55%,#EDB08E 100%)}
+footer::before{content:"";position:absolute;left:-10%;top:-30%;width:70%;height:90%;z-index:-1;border-radius:50%;background:radial-gradient(closest-side,rgba(30,128,118,.3),rgba(30,128,118,0));filter:blur(30px);pointer-events:none}
+footer>div:first-child{padding:40px;border-radius:24px;color:#D9ECE7;
+  background:linear-gradient(135deg,rgba(32,96,90,.86) 0%,rgba(20,70,66,.9) 60%,rgba(16,58,55,.93) 100%);
+  border:1px solid rgba(255,255,255,.28);box-shadow:inset 0 1px 0 rgba(255,255,255,.35),inset 0 -1px 0 rgba(0,0,0,.12),0 30px 60px -30px rgba(16,58,55,.55);
+  backdrop-filter:blur(16px) saturate(1.3);-webkit-backdrop-filter:blur(16px) saturate(1.3)}
+footer>div:first-child .small-caps{color:#fff}
+footer .field{border-color:rgba(255,255,255,.32);background:rgba(255,255,255,.1)}
+footer .field::placeholder{color:#A9CBC4}
+footer .big{color:#1E5852}
+footer .big .yr{color:#0E8077}
+footer .fmeta{color:rgba(29,74,70,.75)}
+@media (max-width:640px){footer>div:first-child{padding:28px 22px}}
 </style>
 
 </head>
