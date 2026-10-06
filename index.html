@@ -8,6 +8,11 @@
 
 
 
+
+
+
+
+
 <meta name="description" content="Sun and Soul 2027, San Diego Vitality Con. Frontier medicine, daily longevity, mind and nervous system, and community. La Jolla, San Diego. Presented by Ēnel Health.">
 <meta property="og:title" content="Sun and Soul 2027 · San Diego Vitality Con">
 <meta property="og:image" content="/img/aerial.jpg">
@@ -19,6 +24,21 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Syne:wght@700;800&family=Pacifico&family=Space+Grotesk:wght@500;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Syne:wght@700;800&family=Pacifico&family=Space+Grotesk:wght@500;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Syne:wght@700;800&family=Pacifico&family=Space+Grotesk:wght@500;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Syne:wght@700;800&family=Pacifico&family=Space+Grotesk:wght@500;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Syne:wght@700;800&family=Pacifico&family=Space+Grotesk:wght@500;700&display=swap">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Syne:wght@700;800&family=Pacifico&family=Space+Grotesk:wght@500;700&display=swap">
@@ -189,7 +209,7 @@ section{position:relative}
 .community{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:48px;align-items:stretch}
 .community .left{display:flex;flex-direction:column;justify-content:space-between;gap:40px}
 .community .photo{border-radius:var(--r-lg);overflow:hidden;min-height:440px;position:relative}
-.community .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.community .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:38% 45%}
 .joined.dark .small-caps{color:var(--ink)}
 .joined.dark .faces img{border-color:#fff}
 
@@ -413,6 +433,7 @@ html.lenis{scroll-behavior:auto}
 .ev p{margin:0;line-height:1.6;color:rgba(255,255,255,.92)}
 .ev-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
 .ev-chips span{font-size:12px;font-weight:600;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(8px)}
+.ev-dj::after{background:linear-gradient(180deg,rgba(28,22,14,.25) 0%,rgba(28,22,14,0) 30%,rgba(22,26,16,.55) 58%,rgba(14,24,14,.93) 100%)}
 .ev-dj .ev-chips span:first-child{background:var(--lime);color:var(--ink);border-color:var(--lime)}
 .ev-dj::before{content:"";position:absolute;left:50%;top:18%;width:70%;height:40%;transform:translateX(-50%);z-index:-1;background:radial-gradient(closest-side,rgba(255,140,70,.45),transparent);mix-blend-mode:screen;animation:stage 3.2s ease-in-out infinite}
 @keyframes stage{0%,100%{opacity:.5;transform:translateX(-50%) scale(1)}50%{opacity:1;transform:translateX(-50%) scale(1.12)}}
@@ -425,6 +446,57 @@ html.lenis{scroll-behavior:auto}
 .sp:hover .avatar.has-ph img{filter:none}
 @media (max-width:980px){.events{grid-template-columns:1fr}.mod{grid-template-columns:minmax(0,180px) minmax(0,1fr)}}
 @media (max-width:640px){.mod{grid-template-columns:1fr}.mod .ph{max-width:200px}.ev{min-height:520px}}
+
+/* ===== v6: ocean passes, constellation dome ===== */
+.ev-dome{background:radial-gradient(120% 80% at 50% 0%,#1B1F4D 0%,#0B1030 45%,#050818 100%)}
+.ev-dome::after{background:linear-gradient(180deg,rgba(5,8,28,.5) 0%,rgba(5,8,28,.25) 45%,rgba(5,8,28,.7) 66%,rgba(5,8,28,.95) 100%)}
+.ev-dome .ev-line{color:#B9C6FF}
+.events .ev{min-height:720px}
+@media (max-width:640px){.events .ev-dome{min-height:860px}}
+.constel{position:absolute;inset:0;width:100%;height:100%;z-index:0;display:block;pointer-events:none;filter:drop-shadow(0 0 6px rgba(5,8,28,.55))}
+.ev-dome .ev-top,.ev-dome .ev-body{position:relative;z-index:1}
+.ev-dome .ev-chips span:first-child{background:#B9C6FF;color:#0B1030;border-color:#B9C6FF}
+#passes.ocean{position:relative;isolation:isolate;overflow:hidden;border-radius:var(--r-lg);margin-top:40px;padding:104px clamp(20px,4vw,56px) clamp(20px,4vw,56px);color:#fff}
+#passes.ocean::before{content:"";position:absolute;inset:-4%;z-index:-2;background:url(img/passes-ocean.jpg) center 35%/cover no-repeat;animation:oceanDrift 30s ease-in-out infinite alternate}
+#passes.ocean::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(4,52,60,.62) 0%,rgba(4,60,66,.28) 38%,rgba(4,52,60,.18) 70%,rgba(3,40,48,.5) 100%)}
+@keyframes oceanDrift{from{transform:scale(1) translate3d(0,0,0)}to{transform:scale(1.06) translate3d(-1.5%,-2%,0)}}
+#passes.ocean .label{color:#fff}
+#passes.ocean .h2{color:#fff;text-shadow:0 2px 30px rgba(0,40,48,.35)}
+#passes.ocean .ghost{color:rgba(255,255,255,.62)}
+#passes.ocean .pass{background:rgba(255,255,255,.86);backdrop-filter:blur(14px) saturate(1.2);-webkit-backdrop-filter:blur(14px) saturate(1.2);box-shadow:0 20px 50px -20px rgba(0,40,50,.45)}
+#passes.ocean .pass:hover{background:rgba(255,255,255,.95)}
+#passes.ocean .pass[aria-checked="true"]{background:var(--ink);color:#fff}
+#passes.ocean .selbar{background:rgba(255,255,255,.88);border-color:rgba(255,255,255,.5);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+@media (prefers-reduced-motion:reduce){#passes.ocean::before{animation:none}}
+
+/* ===== v7: flat sun CTA, Sun corona, sound toggle ===== */
+.nav-cta .btn-sun{background:#FFD60A;color:#0A0A0A;border:0;box-shadow:none;font-weight:700}
+.nav-cta .btn-sun:hover{background:#FFE14D;color:#0A0A0A}
+.sunfx{position:relative;display:inline-block}
+.sunfx::before{content:"";position:absolute;left:50%;top:46%;width:2.15em;height:2.15em;border-radius:50%;z-index:-1;pointer-events:none;
+  background:repeating-conic-gradient(from 0deg,rgba(255,224,130,0) 0deg 7deg,rgba(255,232,160,.55) 9deg 11deg,rgba(255,224,130,0) 13deg 20deg);
+  -webkit-mask-image:radial-gradient(closest-side,transparent 26%,#000 40%,rgba(0,0,0,.6) 62%,transparent 100%);mask-image:radial-gradient(closest-side,transparent 26%,#000 40%,rgba(0,0,0,.6) 62%,transparent 100%);
+  opacity:0;transform:translate(-50%,-50%) scale(.5) rotate(0deg);animation:coronaLife 3.6s 2.1s ease-in-out forwards}
+.sunfx::after{content:"";position:absolute;left:50%;top:54%;width:1.9em;height:1.35em;border-radius:50%;z-index:-1;pointer-events:none;
+  background:radial-gradient(closest-side,rgba(255,236,150,.85),rgba(255,196,60,.45) 45%,rgba(255,150,40,0) 100%);filter:blur(14px);
+  opacity:0;transform:translate(-50%,-50%) scale(.6);animation:haloLife 3.6s 2s ease-in-out forwards}
+@keyframes coronaIn{to{opacity:.9;transform:translate(-50%,-50%) scale(1) rotate(30deg)}}
+@keyframes coronaSpin{from{opacity:.9;transform:translate(-50%,-50%) scale(1) rotate(30deg)}to{opacity:.9;transform:translate(-50%,-50%) scale(1) rotate(390deg)}}
+@keyframes haloIn{to{opacity:1;transform:translate(-50%,-50%) scale(1)}}
+@keyframes haloPulse{0%,100%{opacity:1;transform:translate(-50%,-50%) scale(1)}50%{opacity:.7;transform:translate(-50%,-50%) scale(1.12)}}
+.sunword{position:relative;animation:glare 1.5s 1.05s cubic-bezier(.45,0,.2,1) forwards,sunTo 1.1s 2.1s ease forwards!important}
+@keyframes coronaLife{0%{opacity:0;transform:translate(-50%,-50%) scale(.5) rotate(0deg)}17%{opacity:.9;transform:translate(-50%,-50%) scale(1) rotate(12deg)}83%{opacity:.9;transform:translate(-50%,-50%) scale(1.04) rotate(34deg)}100%{opacity:0;transform:translate(-50%,-50%) scale(1.1) rotate(40deg)}}
+@keyframes haloLife{0%{opacity:0;transform:translate(-50%,-50%) scale(.6)}17%,83%{opacity:1;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(-50%,-50%) scale(1.1)}}
+@keyframes glowLife{0%,100%{opacity:0}17%,83%{opacity:1}}
+@keyframes shimmer{0%,72%{background-position:100% 0}100%{background-position:0% 0}}
+.sunword::after{content:attr(data-t);position:absolute;inset:0;z-index:-1;-webkit-text-fill-color:#FFC83A;color:#FFC83A;filter:blur(16px);opacity:0;animation:glowLife 3.6s 2.1s ease-in-out forwards}
+@media (prefers-reduced-motion:reduce){.sunfx::before,.sunfx::after,.sunword::after{animation:none;opacity:0}}
+.snd{position:fixed;right:20px;bottom:20px;z-index:80;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(255,255,255,.25);background:rgba(14,58,20,.92);color:#fff;cursor:pointer;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);box-shadow:0 12px 30px rgba(14,58,20,.3);transition:transform .3s,background .3s}
+.snd:hover{transform:translateY(-2px);background:#0B6E78}
+.snd .on{display:none}.snd[aria-pressed="true"] .on{display:inline}.snd[aria-pressed="true"] .off{display:none}
+.snd[aria-pressed="true"]::before,.snd.pending::before{content:"";position:absolute;inset:-1px;border-radius:50%;border:2px solid #FFD60A;opacity:0;animation:sndRing 2.4s ease-out infinite}
+@keyframes sndRing{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(1.6)}}
+@media (max-width:640px){.snd{right:12px;bottom:12px}}
 </style>
 
 </head>
@@ -444,16 +516,16 @@ html.lenis{scroll-behavior:auto}
       <span>Sun and Soul<br>Vitality Con 2027</span>
     </a>
     <div class="links"><a href="#tracks">Tracks</a><a href="#experiences">Experiences</a><a href="#after-hours">After hours</a><a href="#speakers">Speakers</a><a href="#program">Program</a><a href="#passes">Passes</a></div>
-    <div class="nav-cta"><a class="btn btn-glass btn-gloss" href="#join">Join the list</a><a class="btn btn-white" href="#passes">Get passes</a></div>
+    <div class="nav-cta"><a class="btn btn-sun" href="#join">Join the list</a><a class="btn btn-white" href="#passes">Get passes</a></div>
   </nav>
   <div class="flare" aria-hidden="true"><span class="beam"></span><span class="streak"></span><span class="bloom"></span></div>
   <div class="hero-top">
-    <h1 aria-label="Sun and Soul"><span class="w" style="animation-delay:.25s"><span class="sunword">Sun</span></span> <span class="w" style="animation-delay:.38s">and</span> <span class="w" style="animation-delay:.51s">Soul</span></h1>
+    <h1 aria-label="Sun and Soul"><span class="w" style="animation-delay:.25s"><span class="sunfx"><span class="sunword" data-t="Sun">Sun</span></span></span> <span class="w" style="animation-delay:.38s">and</span> <span class="w" style="animation-delay:.51s">Soul</span></h1>
     <p class="sub u" style="animation-delay:.75s">San Diego Vitality Con <span class="yr">2027</span></p>
   </div>
   <div class="hero-bottom">
     <div class="joined u" style="animation-delay:1s">
-      <div class="faces"><img src="img/img19.jpg" alt="" style="animation-delay:1.1s"><img src="img/img11.jpg" alt="" style="animation-delay:1.18s"><img src="img/img10.jpg" alt="" style="animation-delay:1.26s"><img src="img/img06.jpg" alt="" style="animation-delay:1.34s"></div>
+      <div class="faces"><img src="img/img19.jpg" alt="" style="animation-delay:1.1s"><img src="img/img11.jpg" alt="" style="animation-delay:1.18s"><img src="img/face1.jpg" alt="" style="animation-delay:1.26s"><img src="img/face2.jpg" alt="" style="animation-delay:1.34s"><img src="img/face3.jpg" alt="" style="animation-delay:1.42s"></div>
       <div class="small-caps">Four tracks, two days on the coast.<br>A wellness festival for every <span class="rot" id="rot"><span>body</span></span></div>
     </div>
     <div class="hero-card u" style="animation-delay:1.2s">
@@ -543,7 +615,7 @@ html.lenis{scroll-behavior:auto}
   </div>
   <div class="events">
     <article class="ev ev-dj reveal">
-      <img class="ev-bg" src="img/dj.jpg" alt="Silhouetted crowd dancing at a waterfront stage at sunset" loading="lazy">
+      <img class="ev-bg" src="img/djset3.jpg" alt="A DJ playing to a crowd in a glass-walled beach house as the sun sets over the ocean" loading="lazy" style="object-position:50% 35%">
       <div class="ev-top"><span class="ev-tag">Sunset · Day 1</span><span class="ev-tag ghosted">[TIME TBA]</span></div>
       <div class="ev-body">
         <h3>Sunset DJ Set</h3>
@@ -554,13 +626,13 @@ html.lenis{scroll-behavior:auto}
     </article>
     <article class="ev ev-dome reveal">
       <video class="ev-bg" src="img/pod.mp4" poster="img/pod-poster.jpg" muted loop playsinline autoplay preload="metadata" aria-label="A white geodesic dome as the sky turns from sunset to night"></video>
-      <div class="stars" aria-hidden="true"></div>
+      <canvas class="constel" aria-hidden="true"></canvas>
       <div class="ev-top"><span class="ev-tag">Nightly · Both days</span><span class="ev-tag ghosted">Limited seats</span></div>
       <div class="ev-body">
         <h3>The Dome: Health Planetarium</h3>
-        <p class="ev-line">Lie back. Look up. Recalibrate.</p>
-        <p>An immersive geodesic pod with a full-dome sky show on sleep, circadian rhythm and the nervous system, followed by a guided breathwork wind-down under the stars.</p>
-        <div class="ev-chips"><span>Full-dome visuals</span><span>Circadian science</span><span>Guided breathwork</span><span>20-min sessions</span></div>
+        <p class="ev-line">Your mind, body and relationships, mapped in light.</p>
+        <p>Step inside a 360° dome where your health becomes a living universe. Sleep, heart rhythm, focus and connection drift overhead as constellations of data in deep space. Explore how they pull on each other, then land with a guided breathwork wind-down.</p>
+        <div class="ev-chips"><span>360° immersive dome</span><span>Data constellations</span><span>Mind · Body · Relationships</span><span>20-min journeys</span></div>
       </div>
     </article>
   </div>
@@ -581,7 +653,7 @@ html.lenis{scroll-behavior:auto}
         <div class="small-caps">For every body · every age<br>every stage</div>
       </div>
     </div>
-    <div class="photo reveal"><img src="img/friends.jpg" alt="Friends laughing on bikes and piggyback on the beach at golden hour" loading="lazy"></div>
+    <div class="photo reveal"><img src="img/findyourpeople.jpg" alt="A group of friends squeezing into a selfie at golden hour" loading="lazy"></div>
   </div>
 </section>
 
@@ -649,7 +721,7 @@ html.lenis{scroll-behavior:auto}
 </section>
 
 <!-- PASSES -->
-<section class="sec" id="passes" style="padding-top:80px">
+<section class="sec ocean" id="passes">
   <div class="xhead">
     <div style="display:flex;flex-direction:column;gap:18px">
       <span class="label"><span class="ic"><svg viewBox="0 0 12 12"><circle cx="6" cy="6" r="2.5" fill="#0E3A14"/></svg></span>Passes · Sun and Soul 2027 · Dates [TBA]</span>
@@ -683,7 +755,8 @@ html.lenis{scroll-behavior:auto}
   <div class="fmeta"><span>Sun and Soul 2027 · San Diego Vitality Con</span><span>La Jolla · CA</span><span>Presented by Ēnel Health</span></div>
 </footer>
 </div>
-<button type="button" class="music" id="music" aria-pressed="false" aria-label="Play lofi music"><span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span id="musicLabel">Play lofi</span></button>
+<audio id="track" src="audio/saltwater-sunrise.mp3" loop preload="auto"></audio>
+<button type="button" class="snd" id="music" aria-pressed="false" aria-label="Turn music on" title="Saltwater Sunrise"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z" fill="currentColor"/><g class="on"><path d="M15.5 9a4 4 0 0 1 0 6"/><path d="M18 6.5a7.5 7.5 0 0 1 0 11"/></g><g class="off"><path d="M16 9.5l5 5M21 9.5l-5 5"/></g></svg></button>
 
 <script>
 (function(){
@@ -828,49 +901,97 @@ setPass(1);
 })();
 
 
-/* ===== generative lofi EDM (Web Audio; starts only when the visitor presses Play) ===== */
+/* ===== music: Saltwater Sunrise, on by default ===== */
 (function(){
- const btn=document.getElementById('music'),lab=document.getElementById('musicLabel');let ctx=null,master,timer=null,step=0,next=0,playing=false,noiseBuf,pumpGain;
- const BPM=86,SPB=60/BPM/4; // 16th note length
- const chords=[[53,57,60,64],[52,55,59,62],[50,53,57,60],[48,52,55,59]]; // Fmaj7 Em7 Dm7 Cmaj7
- const roots=[41,40,38,36];const scale=[72,74,76,79,81,84];
- const hz=m=>440*Math.pow(2,(m-69)/12);
- function setup(){ctx=new (window.AudioContext||window.webkitAudioContext)();
-  master=ctx.createGain();master.gain.value=0;
-  const lp=ctx.createBiquadFilter();lp.type='lowpass';lp.frequency.value=2600;lp.Q.value=.4;
-  const comp=ctx.createDynamicsCompressor();comp.threshold.value=-18;comp.ratio.value=3;
-  pumpGain=ctx.createGain();pumpGain.gain.value=1;
-  pumpGain.connect(lp);lp.connect(comp);comp.connect(master);master.connect(ctx.destination);
-  noiseBuf=ctx.createBuffer(1,ctx.sampleRate*2,ctx.sampleRate);const d=noiseBuf.getChannelData(0);for(let i=0;i<d.length;i++)d[i]=Math.random()*2-1;
-  // vinyl crackle bed
-  const cr=ctx.createBufferSource();const cb=ctx.createBuffer(1,ctx.sampleRate*3,ctx.sampleRate);const cd=cb.getChannelData(0);for(let i=0;i<cd.length;i++)cd[i]=Math.random()<.0009?(Math.random()*2-1)*.8:(Math.random()*2-1)*.012;
-  cr.buffer=cb;cr.loop=true;const cg=ctx.createGain();cg.gain.value=.35;const chp=ctx.createBiquadFilter();chp.type='highpass';chp.frequency.value=1200;cr.connect(chp);chp.connect(cg);cg.connect(master);cr.start();}
- function env(g,t,a,peak,dec,sus,rel,len){g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(peak,t+a);g.gain.setTargetAtTime(sus,t+a,dec);g.gain.setTargetAtTime(0,t+len,rel);}
- function keys(notes,t,len){notes.forEach((n,i)=>{[0,7].forEach(det=>{const o=ctx.createOscillator();o.type=i%2?'triangle':'sine';o.frequency.value=hz(n);o.detune.value=det-3;const f=ctx.createBiquadFilter();f.type='lowpass';f.frequency.value=1500;const g=ctx.createGain();env(g,t+i*.012,.02,.07,.4,.035,.5,len);o.connect(f);f.connect(g);g.connect(pumpGain);o.start(t);o.stop(t+len+2);});});}
- function bass(n,t,len){const o=ctx.createOscillator();o.type='sine';o.frequency.value=hz(n);const g=ctx.createGain();env(g,t,.01,.32,.25,.18,.15,len);o.connect(g);g.connect(pumpGain);o.start(t);o.stop(t+len+1);}
- function kick(t){const o=ctx.createOscillator();o.frequency.setValueAtTime(130,t);o.frequency.exponentialRampToValueAtTime(42,t+.18);const g=ctx.createGain();g.gain.setValueAtTime(.9,t);g.gain.exponentialRampToValueAtTime(.001,t+.42);o.connect(g);g.connect(master);o.start(t);o.stop(t+.5);
-  // sidechain pump on the music bus
-  pumpGain.gain.cancelScheduledValues(t);pumpGain.gain.setValueAtTime(.35,t);pumpGain.gain.linearRampToValueAtTime(1,t+SPB*3.2);}
- function noise(t,type,freq,peak,dec,q){const s=ctx.createBufferSource();s.buffer=noiseBuf;const f=ctx.createBiquadFilter();f.type=type;f.frequency.value=freq;if(q)f.Q.value=q;const g=ctx.createGain();g.gain.setValueAtTime(peak,t);g.gain.exponentialRampToValueAtTime(.001,t+dec);s.connect(f);f.connect(g);g.connect(master);s.start(t);s.stop(t+dec+.05);}
- function pluck(n,t){const o=ctx.createOscillator();o.type='square';o.frequency.value=hz(n);const f=ctx.createBiquadFilter();f.type='lowpass';f.frequency.setValueAtTime(2400,t);f.frequency.exponentialRampToValueAtTime(500,t+.25);const g=ctx.createGain();g.gain.setValueAtTime(.045,t);g.gain.exponentialRampToValueAtTime(.001,t+.35);
-  const dl=ctx.createDelay();dl.delayTime.value=SPB*3;const fb=ctx.createGain();fb.gain.value=.35;o.connect(f);f.connect(g);g.connect(pumpGain);g.connect(dl);dl.connect(fb);fb.connect(dl);dl.connect(pumpGain);o.start(t);o.stop(t+.4);}
- function schedule(){while(next<ctx.currentTime+.12){const t=next+(step%2?SPB*.16:0); // swing
-   const bar=Math.floor(step/16)%4,s16=step%16;
-   if(s16===0)keys(chords[bar],t,SPB*15);
-   if(s16===0||s16===10)bass(roots[bar],t,SPB*(s16===0?6:4));
-   if(s16%4===0)kick(t);
-   if(s16===4||s16===12)noise(t,'bandpass',1800,.28,.18,.8);
-   if(s16%2===0)noise(t,'highpass',7000,s16%4===2?.09:.05,.05);
-   if(s16%2===1&&Math.random()<.35)pluck(scale[Math.floor(Math.random()*scale.length)],t);
-   next+=SPB;step++;}}
- function play(){if(!ctx)setup();ctx.resume();next=ctx.currentTime+.08;timer=setInterval(schedule,25);master.gain.cancelScheduledValues(ctx.currentTime);master.gain.setTargetAtTime(.55,ctx.currentTime,.6);playing=true;btn.setAttribute('aria-pressed','true');btn.setAttribute('aria-label','Pause lofi music');lab.textContent='Pause';}
- function stop(){if(!ctx)return;master.gain.setTargetAtTime(0,ctx.currentTime,.25);clearInterval(timer);timer=null;playing=false;btn.setAttribute('aria-pressed','false');btn.setAttribute('aria-label','Play lofi music');lab.textContent='Play lofi';setTimeout(()=>{if(!playing)ctx.suspend();},900);}
- btn.addEventListener('click',()=>playing?stop():play());
- document.addEventListener('visibilitychange',()=>{if(document.hidden&&playing)stop();});
+ const btn=document.getElementById('music'),au=document.getElementById('track');if(!btn||!au)return;
+ let want=true; try{if(localStorage.getItem('ss-music')==='off')want=false;}catch(e){}
+ au.volume=0;let fadeT=null;
+ const ui=()=>{const on=!au.paused;btn.setAttribute('aria-pressed',on);btn.setAttribute('aria-label',on?'Turn music off':'Turn music on');btn.classList.toggle('pending',want&&au.paused);};
+ const fade=(to,ms,done)=>{clearInterval(fadeT);const from=au.volume,t0=performance.now();fadeT=setInterval(()=>{const k=Math.min(1,(performance.now()-t0)/ms);au.volume=from+(to-from)*k;if(k>=1){clearInterval(fadeT);done&&done();}},40);};
+ const start=()=>au.play().then(()=>{fade(.6,1800);ui();disarm();}).catch(()=>ui());
+ const stop=()=>fade(0,400,()=>{au.pause();ui();});
+ const kick=e=>{if(e&&e.target&&e.target.closest&&e.target.closest('#music'))return;if(want&&au.paused)start();};
+ const evs=['pointerdown','keydown','touchstart','wheel'];
+ const disarm=()=>evs.forEach(ev=>removeEventListener(ev,kick,true));
+ btn.addEventListener('click',()=>{if(au.paused){want=true;start();}else{want=false;stop();}try{localStorage.setItem('ss-music',want?'on':'off');}catch(e){}ui();});
+ au.addEventListener('play',ui);au.addEventListener('pause',ui);
+ if(want){evs.forEach(ev=>addEventListener(ev,kick,{capture:true,passive:true}));start();}
+ document.addEventListener('visibilitychange',()=>{if(document.hidden){if(!au.paused){au.pause();au.dataset.resume='1';}}else if(au.dataset.resume){delete au.dataset.resume;if(want)start();}});
+ ui();
 })();
 
 if(reduce)document.querySelectorAll('video').forEach(v=>{v.removeAttribute('autoplay');v.pause();});
 $('#notify').addEventListener('submit',e=>{e.preventDefault();$('#toast').textContent='Thanks. Sign-ups open with the date announcement. [FORM ENDPOINT TBA]';});
+})();
+
+/* constellation dome */
+(function(){
+  const cv=document.querySelector('.constel'); if(!cv) return;
+  const ctx=cv.getContext('2d'); const rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const C=[
+    {name:'MIND',x:.2,y:.55,col:[185,198,255],tags:['Focus','Mood','Stress','Dreams','Memory','Calm']},
+    {name:'BODY',x:.5,y:.22,col:[159,227,232],tags:['HRV','Sleep','VO₂ max','Glucose','Recovery','Strength']},
+    {name:'RELATIONSHIPS',x:.77,y:.66,col:[255,206,140],tags:['Family','Friends','Partner','Community','Touch','Laughter']}
+  ];
+  let W=0,H=0,dpr=1,nodes=[],stars=[],mx=0,my=0,tx=0,ty=0,t0=performance.now(),run=false,raf=0;
+  function build(){
+    const r=cv.getBoundingClientRect(); dpr=Math.min(2,devicePixelRatio||1); W=r.width; H=r.height;
+    cv.width=W*dpr; cv.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+    let seed=7; const rnd=()=>((seed=seed*16807%2147483647)-1)/2147483646;
+    stars=[...Array(140)].map(()=>({x:rnd()*W,y:rnd()*H,r:rnd()*1.2+.2,p:rnd()*6.28,z:rnd()*.8+.2}));
+    const bd=cv.parentElement.querySelector('.ev-body'); const T=78, B=Math.max(T+120,(bd?bd.offsetTop:H*.5)-28), BH=B-T;
+    nodes=[]; const R=Math.min(W*.42,BH)*.42; const narrow=W<560; const L=narrow?[[.26,.22],[.72,.12],[.52,.82]]:null; const cx=(x,l)=>Math.min(W*(l?.86:.96),Math.max(W*.05,x)); const cy=y=>Math.min(B,Math.max(T,y));
+    C.forEach((c,ci)=>{
+      const fx=L?L[ci][0]:c.x, fy=L?L[ci][1]:c.y;
+      const hub={c:ci,hub:1,bx:fx*W,by:T+18+fy*(BH-36),a:0,ra:0,s:0,r:4.5,lab:c.name};
+      nodes.push(hub);
+      c.tags.forEach((tg,k)=>{const a=k/c.tags.length*6.283+rnd()*.6, d=R*(.55+rnd()*.6);
+        nodes.push({c:ci,hub:0,bx:cx(hub.bx+Math.cos(a)*d*1.25,1),by:cy(hub.by+Math.sin(a)*d*.9),a:rnd()*6.28,ra:6+rnd()*10,s:.3+rnd()*.5,r:1.8+rnd()*1.6,lab:tg});});
+      for(let k=0;k<14;k++){const a=rnd()*6.283,d=R*(.3+rnd()*1.1);
+        nodes.push({c:ci,hub:0,bx:cx(hub.bx+Math.cos(a)*d*1.3,0),by:cy(hub.by+Math.sin(a)*d*1),a:rnd()*6.28,ra:4+rnd()*8,s:.2+rnd()*.6,r:.8+rnd()*1.1,lab:''});}
+    });
+  }
+  function pos(n,t){const par=n.hub?10:16;return [n.bx+Math.cos(n.a+t*n.s)*n.ra+mx*par*(n.r/3),n.by+Math.sin(n.a*1.3+t*n.s*.8)*n.ra*.7+my*par*(n.r/3)];}
+  function draw(now){
+    const t=(now-t0)/1000; mx+=(tx-mx)*.05; my+=(ty-my)*.05;
+    ctx.clearRect(0,0,W,H);
+    for(const s of stars){const a=.25+.55*(.5+.5*Math.sin(t*1.2+s.p));ctx.fillStyle=`rgba(255,255,255,${a*s.z})`;ctx.beginPath();ctx.arc(s.x+mx*6*s.z,s.y+my*6*s.z,s.r,0,6.283);ctx.fill();}
+    const P=nodes.map(n=>pos(n,t));
+    // cross-cluster threads between hubs
+    const hubs=nodes.map((n,i)=>n.hub?i:-1).filter(i=>i>=0);
+    for(let a=0;a<hubs.length;a++)for(let b=a+1;b<hubs.length;b++){
+      const [x1,y1]=P[hubs[a]],[x2,y2]=P[hubs[b]]; const g=ctx.createLinearGradient(x1,y1,x2,y2);
+      const ca=C[nodes[hubs[a]].c].col,cb=C[nodes[hubs[b]].c].col;
+      g.addColorStop(0,`rgba(${ca},.35)`);g.addColorStop(1,`rgba(${cb},.35)`);
+      ctx.strokeStyle=g;ctx.lineWidth=1;ctx.setLineDash([2,6]);ctx.lineDashOffset=-t*12;
+      ctx.beginPath();ctx.moveTo(x1,y1);ctx.quadraticCurveTo((x1+x2)/2,Math.min(y1,y2)-40,x2,y2);ctx.stroke();
+      // travelling pulse
+      const u=(t*.18+a*.33+b*.21)%1, qx=(1-u)*(1-u)*x1+2*(1-u)*u*(x1+x2)/2+u*u*x2, qy=(1-u)*(1-u)*y1+2*(1-u)*u*(Math.min(y1,y2)-40)+u*u*y2;
+      ctx.setLineDash([]);ctx.fillStyle='rgba(255,255,255,.9)';ctx.beginPath();ctx.arc(qx,qy,1.6,0,6.283);ctx.fill();
+    }
+    ctx.setLineDash([]);
+    // in-cluster links
+    for(let i=0;i<nodes.length;i++){const ni=nodes[i];
+      for(let j=i+1;j<nodes.length;j++){const nj=nodes[j]; if(ni.c!==nj.c) continue;
+        const dx=P[i][0]-P[j][0],dy=P[i][1]-P[j][1],d=Math.hypot(dx,dy),lim=Math.min(W,H)*.16;
+        if(d<lim||(ni.hub&&nj.lab)){const al=ni.hub&&nj.lab?.4:(1-d/lim)*.35;ctx.strokeStyle=`rgba(${C[ni.c].col},${al})`;ctx.lineWidth=ni.hub?1:.6;ctx.beginPath();ctx.moveTo(P[i][0],P[i][1]);ctx.lineTo(P[j][0],P[j][1]);ctx.stroke();}
+      }}
+    // nodes + labels
+    ctx.textBaseline='middle';
+    nodes.forEach((n,i)=>{const [x,y]=P[i],col=C[n.c].col;
+      if(n.hub||n.lab){const pulse=1+.35*Math.sin(t*2+i);const g=ctx.createRadialGradient(x,y,0,x,y,n.r*6*pulse);g.addColorStop(0,`rgba(${col},.55)`);g.addColorStop(1,`rgba(${col},0)`);ctx.fillStyle=g;ctx.beginPath();ctx.arc(x,y,n.r*6*pulse,0,6.283);ctx.fill();}
+      ctx.fillStyle=`rgb(${col})`;ctx.beginPath();ctx.arc(x,y,n.r,0,6.283);ctx.fill();
+      if(n.hub){ctx.font='700 11px "Inter Tight",system-ui,sans-serif';ctx.fillStyle='#fff';ctx.textAlign='center';ctx.fillText(n.lab.split('').join(String.fromCharCode(8202)),x,y-16);}
+      else if(n.lab&&W>380){ctx.font='500 10px "Inter Tight",system-ui,sans-serif';ctx.fillStyle=`rgba(${col},.85)`;ctx.textAlign='left';ctx.fillText(n.lab,x+7,y);}
+    });
+    if(run&&!rm) raf=requestAnimationFrame(draw);
+  }
+  build(); draw(performance.now());
+  addEventListener('resize',()=>{build();if(!run||rm)draw(performance.now());});
+  const card=cv.parentElement;
+  card.addEventListener('pointermove',e=>{const r=card.getBoundingClientRect();tx=(e.clientX-r.left)/r.width-.5;ty=(e.clientY-r.top)/r.height-.5;});
+  card.addEventListener('pointerleave',()=>{tx=ty=0;});
+  if(!rm&&'IntersectionObserver' in window){new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting&&!run){run=true;raf=requestAnimationFrame(draw);}else if(!e.isIntersecting){run=false;cancelAnimationFrame(raf);}});}).observe(card);}
 })();
 </script>
 
